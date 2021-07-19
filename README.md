@@ -14,6 +14,7 @@ Signature
 1) С++17
 2) Boost 1.75
 3) CMake 3.18
+4) Linux
 
 Сборка
 ==
