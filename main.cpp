@@ -14,7 +14,13 @@ int main(int argc, char *argv[])
         switch(argc)
         {
         case 4:
-            block_size_mb = boost::lexical_cast<size_t>(argv[3]);
+        {
+            auto block_size_temp = boost::lexical_cast<int>(argv[3]);
+            if (block_size_temp <= 0)
+                throw std::logic_error("Block size cannot be negative or zero");
+            else
+                block_size_mb = block_size_temp;
+        }
         case 3:
             src_file_path = argv[1];
             dst_file_path = argv[2];

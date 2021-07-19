@@ -12,7 +12,7 @@
 class signature_maker
 {
     size_t block_size;
-    size_t max_map_size = 500 << 20;
+    size_t max_map_size = 1000 << 20;
 
     std::string src_file_path, dst_file_path;
 
