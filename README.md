@@ -14,7 +14,7 @@ Signature
 Требования
 ==
 1) С++17
-2) Boost 1.75
+2) Boost 1.71
 3) CMake 3.18
 4) Linux
 
