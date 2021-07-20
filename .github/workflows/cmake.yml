@@ -36,5 +36,5 @@ jobs:
       
     - uses: actions/upload-artifact@v2
       with:
-        name: artifact
+        name: signature
         path: ${{github.workspace}}/build/Signature
