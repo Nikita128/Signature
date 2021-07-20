@@ -1,4 +1,4 @@
-name: Ubuntu
+name: Ubuntu-latest
 
 on:
   push:
