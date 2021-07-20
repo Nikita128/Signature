@@ -24,7 +24,7 @@ set(BOOST_COMPONENTS system iostreams thread)
 set(Boost_USE_STATIC_LIBS ON)
 set(Boost_USE_MULTITHREADED ON)
 set(Boost_USE_STATIC_RUNTIME OFF)
-find_package(Boost 1.75 COMPONENTS ${BOOST_COMPONENTS} REQUIRED)
+find_package(Boost 1.71 COMPONENTS ${BOOST_COMPONENTS} REQUIRED)
 
 ##-----------------------------------------##
 set(SOURCE_FILES
