@@ -3,7 +3,7 @@
 
 Консольная программа на C++ для генерации сигнатуры указанного файла.
 
-![Build Status](https://github.com/Nikita128/Signature/actions/workflows/Ubuntu-latest.yml/badge.svg)
+[![Build Status](https://github.com/Nikita128/Signature/actions/workflows/Ubuntu-latest.yml/badge.svg)](https://github.com/Nikita128/Signature/actions/workflows/Ubuntu-latest.yml)
 
 Сигнатура генерируется следующим образом: исходный файл делится на блоки равной (фиксированной) длины. Если размер файла не кратен размеру блока, последний фрагмент может быть меньше. Для каждого блока вычисляется значение hash-функции и _дописывается в выходной файл-сигнатуру_. В качестве hash-функции использовался MD5.
 
